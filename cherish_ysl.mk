@@ -24,6 +24,10 @@ $(call inherit-product, device/xiaomi/ysl/device.mk)
 # Inherit some common cherish stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cherish.maintainer=Shivam
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
 PRODUCT_NAME := cherish_ysl
