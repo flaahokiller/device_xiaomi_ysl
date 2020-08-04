@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/ysl/device.mk)
 # Inherit some common cherish stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
+#GApps
+TARGET_GAPPS_ARCH := arm64
+
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.cherish.maintainer=Shivam
