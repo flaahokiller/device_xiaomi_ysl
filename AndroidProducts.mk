@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_ysl.mk
+    $(LOCAL_DIR)/_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
     arrow_ysl-user \
