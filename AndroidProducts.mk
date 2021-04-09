@@ -17,6 +17,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cherish_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_ysl-user \
-    cherish_ysl-userdebug \
-    cherish_ysl-eng
+    arrow_ysl-user \
+    arrow_ysl-userdebug \
+    _ysl-eng
