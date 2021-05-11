@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/_ysl.mk
+    $(LOCAL_DIR)/crdroid_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_ysl-user \
-    arrow_ysl-userdebug \
-    _ysl-eng
+    crdroid_ysl-user \
+    crdroid_ysl-userdebug \
+    crdroid_ysl-eng
